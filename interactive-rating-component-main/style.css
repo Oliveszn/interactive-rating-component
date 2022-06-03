@@ -1,0 +1,147 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", "sans-serif";
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 7px;
+}
+
+.rating {
+  position: relative;
+  width: 18%;
+  max-width: 100%;
+  min-height: 230px;
+  margin: 11% auto;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  padding: 3em;
+  box-sizing: inherit;
+}
+
+.img {
+  width: 7%;
+  /* padding-bottom: 2rem; */
+  padding: 0.7rem;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgb(0, 0, 1);
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+
+.text {
+  color: hsl(217, 12%, 63%);
+  font-size: 1rem;
+  line-height: 1.5em;
+  word-spacing: 0.1rem;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.main-btn {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.nos {
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 0.9em;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+  margin-right: 0.9rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+#submit {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* MODAL */
+.select {
+  color: hsl(25, 97%, 53%);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.2rem;
+  border-radius: 42px;
+  background-color: hsl(213, 19%, 18%);
+  box-shadow: 1px 1px 3px rgb(0, 0, 1);
+}
+
+.side {
+  text-align: center;
+}
+
+.side-text {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.modal {
+  position: absolute;
+  width: 18%;
+  max-width: 100%;
+  min-height: 230px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  padding: 3em;
+  top: 23%;
+  left: 39%;
+  box-sizing: inherit;
+  z-index: 10;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+}
